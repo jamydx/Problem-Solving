@@ -21,7 +21,7 @@ print(mensaje)
 print('Menu para hoy: ')
 
 
-# Show the Main Menu
+# Show first Menu: Main
 comprobar1 = True  # Por si el usuario elige mal el menu
 while comprobar1:
     separador(mensaje)
@@ -34,14 +34,14 @@ while comprobar1:
     choose1 = str(input('Elija un menu [1] o [2]: '))
     if choose1 not in menu_options:
         print('')
-        print('¿No estan claras las opciones nob? Elige nuevamente...')
+        print('¿No estan claras las opciones? Elige nuevamente...')
         print('')
     else:
         print('Eligió [{}] = {}'.format(choose1, menu_options.get(choose1)[0]))
         comprobar1 = False
 
 
-# Show Desserts
+# Show Second Menu: Desserts
 comprobar2 = True  # Por si el usuario elige mal el postre
 while comprobar2:
     separador(mensaje)
@@ -50,18 +50,18 @@ while comprobar2:
         print('[{:>2}]  {:<20} | {:>6.2f} |'.format(key, name, value))
     separador(mensaje)
 
-    # ELENTION 2
+    # ELECTION 2
     choose2 = str(input('Elija una opción para el postre: '))
     if choose2 not in dessert_options:
         print(' ')
-        print('¿En serio? Nuevamente tú... Escoge otra vez')
+        print('¿En serio? Nuevamente... Escoge otra vez')
         print(' ')
     else:
         print('Eligió [{}] = {}'.format(choose2, dessert_options.get(choose2)[0]))
         comprobar2 = False
 
 
-# Compute bill:
+# Compute the bill:
 menu = menu_options.get(choose1)[1]
 postre = dessert_options.get(choose2)[1]
 total = menu + postre
