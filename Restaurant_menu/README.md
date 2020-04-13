@@ -1,6 +1,6 @@
 # This folder contains the solution of:
 
-![](Restaurant_instructions.jpg)
+![](./random_code/Restaurant_menu/Restaurant_instructions.jpg)
 
 Requirements: 
 
