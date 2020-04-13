@@ -14,8 +14,8 @@ python restaurant_pro.py
 
 ## Breve descripción del algoritmo:
 
-* Se usa diccionarios para almacenar los datos. Razón: permite almacenar un valor `key` para las entradas que usaremos para comprobar que menú ha elegido el usuario, además permite acceder a sus respectivos `values`.
-* Como `values` del diccionario se usa una `tuple` (tupla) porque permite que los datos no sean alterados durante el proceso de ejecución del programa. La tupla se puede iterar de forma convencional.
+* Se usa diccionarios para almacenar los datos. Razón: Un diccionario permite almacenar un `key` y `values`. La *key* permite comprobar facilmente que la opción del menú elegido por el usuario es correcto, así como también permite acceder a sus respectivos *values*.
+* Como `values` del diccionario se usa una `tuple` (tupla) que contiene en la *primera posición* el **nombre del plato del menu** y como *seunda posición* el **precio**. La tupla no muta por lo tanto es la elegida para evitar que los datos sean alterados durante el proceso de ejecución del programa. La tupla se puede iterar tal cual una lista.
 
 ## Sobre las versiones: **restaurant_simple.py** y **restaurant_pro.py**
 
