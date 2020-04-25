@@ -17,8 +17,7 @@ dessert_options = {'1': ('Flan', 5),
 
 # START THE PROGRAM:
 mensaje = 'BIENVENIDO A MI RESTAURANTE'
-print(mensaje)
-print('Menu para hoy: ')
+print(mensaje.upper())
 
 
 # Show first Menu: Main
