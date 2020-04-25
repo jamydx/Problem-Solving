@@ -1,4 +1,4 @@
-# Esta carpeta contiene la solución del siguiente problema:
+# Detalle del problema:
 
 ![](instructions.jpg)
 
