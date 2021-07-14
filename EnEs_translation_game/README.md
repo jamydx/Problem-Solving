@@ -2,7 +2,6 @@
 
 El presente juego consiste en comprobar si recuerdas o no el significado en español de una palabra en inglés.
 
-
 ## Aspectos técnicos del programa
 
 El programa llama a una base de datos simple que corresponde a un achivo .csv que contiene tres columnas dispuestas de la siguiente manera:
@@ -19,11 +18,9 @@ El pragrama lee estos datos y escoge aleatoriamente palabras para que el usuario
 
 que sigfinican si, no y termiar el juego, respectivamente.
 
-
 ## Opciones a mejorar
 
 * Incluir un reset de partida
 * Incluir el número de palabras a practicar, por defecto 20.
-
 
 By: Jonathan M
